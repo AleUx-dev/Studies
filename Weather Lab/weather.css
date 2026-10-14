@@ -1,8 +1,3 @@
-.rainy {
-    background-color: rgb(142, 149, 158);
-}
-
-
 body {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     margin: auto;
@@ -22,8 +17,8 @@ body {
 }
 
 .weatherBox {
-    margin: 5rem;
-    background: linear-gradient(0deg,rgba(138, 191, 255, 1) 0%, rgba(158, 234, 255, 1) 64%, rgba(194, 245, 255, 1) 100%);
+    margin: 5rem auto;
+    background: linear-gradient(0deg,rgba(138, 191, 255, 0.5) 0%, rgba(158, 234, 255, 0.5) 64%, rgba(194, 245, 255, 0.5) 100%);
     border-radius: 20px;
     padding: 20px;
     text-align: center;
@@ -38,9 +33,25 @@ body {
     display: flex;
     justify-content: space-around;
     font-size: 1.2rem;
-    color: rgb(21, 10, 73);
+
 }
 
 .otherInfoItem {
     margin: 0 10px;
+}
+
+/*variable classes*/
+
+.rain {
+    background: linear-gradient(0deg,rgb(43, 52, 78, 0.5) 0%, rgb(93, 95, 122, 0.5) 64%, rgb(135, 139, 182, 0.5) 100%);
+    color: aliceblue;
+}
+
+.snow {
+    background: linear-gradient(0deg,rgb(143, 143, 143, 0.5) 0%, rgb(207, 217, 219, 0.5) 64%, rgb(220, 249, 255, 0.5) 100%);
+}
+
+.overcast {
+    background: linear-gradient(0deg,rgb(61, 76, 95, 0.5) 0%, rgb(106, 143, 153, 0.5) 64%, rgb(187, 205, 209, 0.5) 100%);
+    color: aliceblue;
 }
