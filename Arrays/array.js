@@ -1,3 +1,6 @@
+
+console.log("Hello World");
+
 let candy = [ 
     {
     "Type": "Chocolate",
@@ -46,18 +49,20 @@ function randomCandyGen() {
     let randomCandy = Math.floor(Math.random() * candy.length);
     let randomCandyName = Math.floor(Math.random() * candy[randomCandy].Name.length);
     let randomCandyMessage = Math.floor(Math.random() * candy[randomCandy].Message.length);
-    //console.log(randomCandyGen());
-   // document.getElementById("candyResult").innerHTML = "You Get" + " " + candy[randomCandy].Type + " " + candy[randomCandy].Name[randomCandyName] + " " +  candy[randomCandy].Message[randomCandyMessage];
+    
+   
    // $("#candyResult").text(candy[randomCandy].Type + " " + candy[randomCandy].Name[randomCandyName] + " " +  candy[randomCandy].Message[randomCandyMessage])
 return ("You Get" + " " + candy[randomCandy].Type + " " + candy[randomCandy].Name[randomCandyName] + " " +  candy[randomCandy].Message[randomCandyMessage])
 };
 
-/*
+
+
 document.getElementById('candyButton').addEventListener('click', function(e){ 
     e.preventDefault();
     document.getElementById("candyResult").innerHTML = randomCandyGen();
+   
 });
-*/
+
 
 
 
