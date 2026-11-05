@@ -1,0 +1,29 @@
+ [
+    {
+        "Project Name": "Plantira",
+        "Project Description": "Plantira is a web application that provides users with information about different plants, including their care instructions, growth patterns, and ideal growing conditions. The application aims to help plant enthusiasts and gardeners make informed decisions about plant care and maintenance.",
+        "Project Features": [
+                "Plant Identifier",
+                "Care Instructions",
+                "Reminder System"
+        ]
+    },
+    {
+        "Project Name": "Saha",
+        "Project Description": "Saha is a social networking platform that connects people with similar interests and hobbies. The platform allows users to create profiles, join groups, and participate in discussions related to their favorite activities. Saha aims to foster a sense of community and encourage users to share their experiences and knowledge.",
+        "Project Features": [
+                "User Profiles",
+                "Post sharing and saving",
+            ]
+    },
+    {
+        "Project Name": "Clokk",
+        "Project Description": "Clokk is a time management and productivity application that helps users track their tasks, set reminders, and monitor their progress. The application provides users with insights into their work habits and helps them optimize their time for better efficiency.",
+        "Project Features": [
+                "Task Management",
+                "Time Tracking",
+                "Progress Monitoring"
+            ]   
+    }
+]
+   
